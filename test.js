@@ -8,5 +8,6 @@ test('Return valid result of examining data-uri', t => {
 	t.is(fn('data:image/svg+xml;PD94bWwgdmVyzeiBNMyw2djJoMThWNkgzeiIvPjwvZz4KPC9zdmc+Cgo='), false);
 	t.is(fn('data:image;base64,PD94bWwgdmVyzeiBNMyw2djJoMThWNkgzeiIvPjwvZz4KPC9zdmc+Cgo='), true);
 	t.is(fn(), false);
+	t.is(fn('data:'), false);
 	t.end();
 });

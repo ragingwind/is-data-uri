@@ -1,6 +1,6 @@
 {
   "name": "is-data-uri",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "check data whether data-uri or not?",
   "license": "MIT",
   "repository": "ragingwind/is-data-uri",
